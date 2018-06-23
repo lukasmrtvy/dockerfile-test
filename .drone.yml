@@ -3,7 +3,7 @@ pipeline:
     image: golang:latest
     pull: true
     commands:
-      - echo hello
+      - echo hello1
       - go test
 
   publish:
