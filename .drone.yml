@@ -4,7 +4,7 @@ pipeline:
     commands:
       - docker info
       - docker build --rm -t octocat/hello-world .
-      #- docker run --rm octocat/hello-world --test
+      ##- docker run --rm octocat/hello-world --test
       #- docker login -u <username> -p <password>
       #- docker push octocat/hello-world
       #- docker rmi octocat/hello-world
