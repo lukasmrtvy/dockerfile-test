@@ -4,6 +4,8 @@ pipeline:
     commands:
       - go build
       - go test
+
   publish:
     image: plugins/docker
     repo: foo/bar
+    tags: [ 1.0.0, 1.0, latest ]
