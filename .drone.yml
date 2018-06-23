@@ -1,6 +1,7 @@
 pipeline:
   build:
     image: plugins/docker
+    repo: foo/bar
     tags:
       - latest
 
