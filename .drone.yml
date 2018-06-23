@@ -1,6 +1,7 @@
 pipeline:
   build:
-    image: golang
+    image: golang:latest
+    pull: true
     commands:
       - go build
       - go test
