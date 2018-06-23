@@ -2,7 +2,7 @@ pipeline:
   build:
     image: plugins/docker
 
-  publish:
-    image: plugins/docker
-    repo: foo/bar
-    tags: [ 1.0.0, 1.0, latest ]
+#  publish:
+#    image: plugins/docker
+#    repo: foo/bar
+#    tags: [ 1.0.0, 1.0, latest ]
